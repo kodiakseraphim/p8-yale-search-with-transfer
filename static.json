@@ -11,13 +11,14 @@
         "title": "Search | Globus Search Portal"
       },
       "content": {
-        "headline": "Globus Search Portal"
+        "headline": "Example: Search with Globus Transfer"
       },
       "features": {
-        "transfer": false
+        "transfer": true
       },
       "components": {
         "Result": {
+          
           "heading": "entries[0].content.name",
           "fields": [
             {
@@ -32,8 +33,11 @@
         }
       },
       "globus": {
+        "application": {
+          "client_id": "1dca6334-27d7-4ddc-ab47-55c86683b68e"
+        },
         "search": {
-          "index": "78b92aca-e361-4307-8f66-bc448f20e2c3",
+          "index": "2707914f-bdeb-49ee-a4b8-54e645b3d885",
           "facets": [
             {
               "name": "Tags",
