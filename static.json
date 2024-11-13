@@ -1,7 +1,7 @@
 {
   "_static": {
     "generator": {
-      "name": "@globus/static-search-portal"
+      "name": "git+ssh://git@github.com/kodiakseraphim/p8-static-search-portal.git#d52c250c27bec39a3bbecf710ecd8145e520d317"
     }
   },
   "data": {
