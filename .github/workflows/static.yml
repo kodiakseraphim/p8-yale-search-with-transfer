@@ -21,12 +21,8 @@ concurrency:
 
 jobs:
   static:
-    uses: from-static/actions/.github/workflows/static.yml@main
+    #uses: from-static/actions/.github/workflows/static.yml@main
+    uses: static-custom.yml
 
-      - name: Install jq tool
-        run: |
-          sudo apt-get update
-          sudo apt-get install jq
-            - name: Install jq
 
           
