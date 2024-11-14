@@ -22,7 +22,7 @@ concurrency:
 jobs:
   static:
     #uses: from-static/actions/.github/workflows/static.yml@main
-    uses: ./.github/workflows/static-custom.yml@main
+    uses: ./.github/workflows/static-custom.yml
 
 
           
