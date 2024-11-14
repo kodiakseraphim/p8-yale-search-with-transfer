@@ -1,5 +1,6 @@
 {
     "dependencies": {
-        "p8-static-search-portal" : "git://github.com/kodiakseraphim/p8-static-search-portal.git"
+        "@globus/static-search-portal": "1.3.1"
     }
 }
+
