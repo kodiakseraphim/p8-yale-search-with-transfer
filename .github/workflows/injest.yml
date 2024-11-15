@@ -66,11 +66,14 @@ jobs:
                 let ingestPayload = null;
                 try {
                   // Attempt to load the ingest payload from the `./data/ingest.json` file.
-                  fs.readdir("./", (err, files)) => {
-                    files.forEach(file) => {
-                        core.info(file);
-                      });
-                    });
+
+                  let filenames = fs.readdirSync("./"); 
+                  core.info("\nFilenames in directory:"); 
+                  
+                  filenames.forEach((file) => { 
+                      core.info("File:", file); 
+                  }); 
+ 
                   ingestPayload = JSON.parse(fs.readFileSync('./data/ingest.json', 'utf8'));
                 } catch (e) {
                   core.setFailed(`Unable to parse ./data/ingest.json: ${e.message}`);
