@@ -67,7 +67,7 @@ jobs:
                 try {
                   // Attempt to load the ingest payload from the `./data/ingest.json` file.
 
-                  let filenames = fs.readdirSync("./"); 
+                  let filenames = fs.readdirSync("./data"); 
                   core.info("\nFilenames in directory:"); 
                   
                   filenames.forEach((file) => { 
