@@ -102,6 +102,6 @@ jobs:
               }
               
               // Execute the async ingest function...
-              main();
+              await main();
               
               
