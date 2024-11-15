@@ -74,7 +74,8 @@ jobs:
                       core.info("File:", file); 
                   }); 
  
-                  ingestPayload = JSON.parse(fs.readFileSync('./data/ingest.json', 'utf8'));
+                  //ingestPayload = JSON.parse(fs.readFileSync('./data/ingest.json', 'utf8'));
+                  ingestPayload = JSON.parse(fs.readFileSync('./ingest.json', 'utf8'));
                 } catch (e) {
                   core.setFailed(`Unable to parse ./data/ingest.json: ${e.message}`);
                 }
