@@ -1,0 +1,52 @@
+{
+  "ingest_type": "GMetaList",
+  "ingest_data": {
+    "gmeta": [
+      {
+        "subject": "5352507d-1293-4827-8ba9-c2d4a0eb78d1",
+        "visible_to": [
+          "public"
+        ],
+        "content": {
+          "name": "Atlanta International Airport Climate Data (ATL)",
+          "id": "5352507d-1293-4827-8ba9-c2d4a0eb78d1",
+          "path": "/portal/catalog/dataset_atl",
+          "region": "south",
+          "tags": [
+            "airport"
+          ],
+          "globus": {
+            "transfer": {
+              "collection": "a6f165fa-aee2-4fe5-95f3-97429c28bf82",
+              "path": "/portal/catalog/dataset_atl",
+              "type": "directory"
+            }
+          }
+        }
+      },
+       {
+        "subject": "a6f165fa-aee2-4fe5-95f3-97429c28bf82",
+        "visible_to": [
+          "public"
+        ],
+        "content": {
+          "name": "Atlanta International Airport Climate Data (ATL) - Changed",
+          "id": "a6f165fa-aee2-4fe5-95f3-97429c28bf82",
+          "path": "/portal/catalog/dataset_atl",
+          "region": "south",
+          "tags": [
+            "airport"
+          ],
+          "globus": {
+            "transfer": {
+              "collection": "a6f165fa-aee2-4fe5-95f3-97429c28bf82",
+              "path": "/portal/catalog/dataset_atl",
+              "type": "directory"
+            }
+          }
+        }
+      }
+   
+    ]
+  }
+}
